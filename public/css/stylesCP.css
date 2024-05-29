@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body, header, main, footer, nav, ul, li, h1, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(39, 35, 67, 1);
+    overflow-x: hidden;
+}
+
+/***************************/
+
+.container-fluid img{
+    width: 8%;
+    height: 4%;
+    margin-right: 5px;
+}
+
+.Account img{
+    top: 0%;
+    margin-left: 970px;
+    width: 50px;
+    height: 50px;
+}
+
+/****************************/
+
+img {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 350px;
+    position: absolute;
+    padding: 6px;
+    border: none;
+    margin-top: 90px;
+    margin-left: 35%;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+/****************************/
+
+.hero{
+    position: absolute;
+}
+
+.row{
+    margin-top: 80px;
+}
+
+.col{
+    margin: 20px;
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 550px;
+}
+
+.col:hover{
+    width: 600px;
+}
+
+.card{
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+}
+
+.card img{
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+.card-title{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 6%;
+    font-family: 'Orbitron';
+    font-size: 24px;
+}
+
+.card button{
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    border-radius: 20px;
+    margin-left: 65%;
+    margin-top: 16%;
+    background: linear-gradient(20deg, rgb(53, 34, 72), #211144);
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-body p{
+    font-size: 14px;
+}

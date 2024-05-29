@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contain{
+    width: 950px;
+    background-color: #272343;   
+    border-radius: 8px;
+    overflow: hidden;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.form{
+    display: flex;
+    height: 85vh;
+}
+
+.left{
+    width: 35%;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.left p{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+.left .logo{
+    margin-top: 31%;
+    margin-left: 12%;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.right{
+    width: 65%;
+    padding: 30px 30px;
+    color: white;
+    overflow-y: scroll;
+}
+
+.right::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.right::-webkit-scrollbar-track {
+    background: #272343; /* Color of the track */
+}
+
+.right::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar */
+}
+
+.right::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar on hover */
+}
+
+.check-box label{
+    font-size: 0.8rem;
+}
+
+.check-box a{
+    text-decoration: none;
+}
+
+.submit button{ 
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login button{ 
+    background-color: #ffffff;
+    width: 100%;
+    color: #000000;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login img{
+    width: 11%;
+}
+
+

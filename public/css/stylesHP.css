@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sansation');
+
+body, header, main, footer, nav, ul, li, h1, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+/***************************/
+
+header {
+    color: #000000;
+    padding: 20px;
+    font-family: 'sansation', sans-serif;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 35px;
+}
+  
+nav ul li a {
+    color: rgb(255, 255, 255,0.5);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    color: rgba(39, 35, 67, 1);
+}
+
+
+/*************************/
+  
+  main {
+    padding: 0;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  img {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /*****************************************/
+  .overlay {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 35%;
+    height: 24.5%;
+    background-color: rgba(39, 35, 67, 0.892);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding-top: 10px;
+    padding-left: 35px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .content.active {
+    background-color: rgba(39, 35, 67, 0.7);
+  }
+
+  h1 {
+    font-family: 'Orbitron';
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  /************************************/
+
+  .overlay2 {
+    position: absolute;
+    top: 165px;
+    left: 50%;
+    width: 38%;
+    height: 35%;
+    background-color: rgba(39, 35, 67, 0.892);
+  }
+  
+  .content2 {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    padding-left: 40px;
+    color: #fff;
+  }
+  
+  .overlay2.active {
+    background-color: rgba(39, 35, 67, 1);
+  }
+
+  .txt2{
+    font-family: 'Orbitron';
+    font-size: 40px;
+  }
+
+  .Icon {
+    padding-left: 40px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.Icon img {
+    width: 80px;
+    height: 80px;
+    padding-right: 70px;
+}
